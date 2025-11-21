@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_data": {
+		"jufufu:add_label": {
+			"textures": "textures/items/add_label"
+		}
+	},
+	"texture_name": "atlas.items"
+}

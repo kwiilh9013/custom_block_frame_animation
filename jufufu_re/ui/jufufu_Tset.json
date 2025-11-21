@@ -1,0 +1,674 @@
+{
+    "main": {
+        "type": "screen",
+        "controls": [
+            {
+                "main_panel": {
+                    "type": "panel",
+                    "size": [
+                        "60%+0px",
+                        "80%+0px"
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "left_panel": {
+                                "type": "panel",
+                                "anchor_from": "left_middle",
+                                "anchor_to": "left_middle",
+                                "size": [
+                                    "8%+0px",
+                                    "default"
+                                ],
+                                "controls": [
+                                    {
+                                        "setting_panel": {
+                                            "type": "panel",
+                                            "anchor_from": "bottom_right",
+                                            "anchor_to": "bottom_right",
+                                            "size": [
+                                                "default",
+                                                "10%+0px"
+                                            ],
+                                            "controls": [
+                                                {
+                                                    "bg": {
+                                                        "type": "image",
+                                                        "anchor_from": "left_middle",
+                                                        "anchor_to": "left_middle",
+                                                        "size": [
+                                                            "100%+10px",
+                                                            "default"
+                                                        ],
+                                                        "clip_direction": "left",
+                                                        "clip_ratio": 0.0,
+                                                        "nineslice_size": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "texture": "textures/ui/background_panel"
+                                                    }
+                                                },
+                                                {
+                                                    "setting_btn@common.button": {
+                                                        "type": "button",
+                                                        "$control_alpha": 1.0,
+                                                        "$default_color": [
+                                                            0.1686274509803922,
+                                                            0.1686274509803922,
+                                                            0.1686274509803922
+                                                        ],
+                                                        "$default_texture": "textures/ui/automation_glyph_color",
+                                                        "$hover_color": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "$hover_texture": "textures/ui/automation_glyph_color",
+                                                        "$is_new_nine_slice": false,
+                                                        "$label_color": [
+                                                            1.0,
+                                                            1.0,
+                                                            1.0
+                                                        ],
+                                                        "$label_font_scale_factor": 1.0,
+                                                        "$label_font_size": "large",
+                                                        "$label_layer": 3,
+                                                        "$label_offset": [
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$label_text": "Button",
+                                                        "$nine_slice_buttom": 0,
+                                                        "$nine_slice_left": 0,
+                                                        "$nine_slice_right": 0,
+                                                        "$nine_slice_top": 0,
+                                                        "$nineslice_size": [
+                                                            0,
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                        "$pressed_color": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "$pressed_texture": "textures/ui/automation_glyph_color",
+                                                        "$texture_layer": 2,
+                                                        "size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "max_size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "layer": 2,
+                                                        "button_mappings": [],
+                                                        "default_control": "default",
+                                                        "hover_control": "hover",
+                                                        "is_handle_button_move_event": true,
+                                                        "pressed_control": "pressed",
+                                                        "bindings": [
+                                                            {
+                                                                "binding_type": "collection_details",
+                                                                "binding_collection_name": "",
+                                                                "binding_condition": "always_when_visible"
+                                                            }
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "default@netease_editor_template_namespace.default": {
+                                                                    "$default_color|default": [
+                                                                        1,
+                                                                        1,
+                                                                        1
+                                                                    ],
+                                                                    "color": "$default_color"
+                                                                }
+                                                            },
+                                                            {
+                                                                "hover@netease_editor_template_namespace.hover": {
+                                                                    "$hover_color|default": [
+                                                                        1,
+                                                                        1,
+                                                                        1
+                                                                    ],
+                                                                    "color": "$hover_color"
+                                                                }
+                                                            },
+                                                            {
+                                                                "pressed@netease_editor_template_namespace.pressed": {
+                                                                    "$pressed_color|default": [
+                                                                        1,
+                                                                        1,
+                                                                        1
+                                                                    ],
+                                                                    "color": "$pressed_color"
+                                                                }
+                                                            },
+                                                            {
+                                                                "button_label@netease_editor_template_namespace.button_label": {}
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "help_panel": {
+                                            "type": "panel",
+                                            "anchor_from": "bottom_right",
+                                            "anchor_to": "bottom_right",
+                                            "offset": [
+                                                0.0,
+                                                "-10%+0px"
+                                            ],
+                                            "size": [
+                                                "default",
+                                                "10%+0px"
+                                            ],
+                                            "controls": [
+                                                {
+                                                    "bg": {
+                                                        "type": "image",
+                                                        "anchor_from": "left_middle",
+                                                        "anchor_to": "left_middle",
+                                                        "size": [
+                                                            "100%+10px",
+                                                            "default"
+                                                        ],
+                                                        "clip_direction": "left",
+                                                        "clip_ratio": 0.0,
+                                                        "nineslice_size": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "texture": "textures/ui/background_panel"
+                                                    }
+                                                },
+                                                {
+                                                    "setting_btn@common.button": {
+                                                        "type": "button",
+                                                        "$control_alpha": 1.0,
+                                                        "$default_texture": "",
+                                                        "$hover_texture": "",
+                                                        "$is_new_nine_slice": false,
+                                                        "$label_color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "$label_font_scale_factor": 1.0,
+                                                        "$label_font_size": "large",
+                                                        "$label_layer": 3,
+                                                        "$label_offset": [
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$label_text": "Button",
+                                                        "$nine_slice_buttom": 0,
+                                                        "$nine_slice_left": 0,
+                                                        "$nine_slice_right": 0,
+                                                        "$nine_slice_top": 0,
+                                                        "$nineslice_size": [
+                                                            0,
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                        "$pressed_texture": "",
+                                                        "$texture_layer": 2,
+                                                        "size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "max_size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "layer": 2,
+                                                        "button_mappings": [],
+                                                        "default_control": "default",
+                                                        "hover_control": "hover",
+                                                        "is_handle_button_move_event": true,
+                                                        "pressed_control": "pressed",
+                                                        "bindings": [
+                                                            {
+                                                                "binding_type": "collection_details",
+                                                                "binding_collection_name": "",
+                                                                "binding_condition": "always_when_visible"
+                                                            }
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "default@netease_editor_template_namespace.default": {}
+                                                            },
+                                                            {
+                                                                "hover@netease_editor_template_namespace.hover": {}
+                                                            },
+                                                            {
+                                                                "pressed@netease_editor_template_namespace.pressed": {}
+                                                            },
+                                                            {
+                                                                "button_label@netease_editor_template_namespace.button_label": {}
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "index_panel": {
+                                "type": "panel",
+                                "size": [
+                                    "84%+0px",
+                                    "default"
+                                ],
+                                "layer": 1,
+                                "controls": [
+                                    {
+                                        "top_panel": {
+                                            "type": "panel",
+                                            "anchor_from": "bottom_middle",
+                                            "anchor_to": "bottom_middle",
+                                            "offset": [
+                                                0.0,
+                                                "-85%+-7px"
+                                            ],
+                                            "size": [
+                                                "95%+0px",
+                                                "10%+0px"
+                                            ],
+                                            "layer": 2,
+                                            "controls": [
+                                                {
+                                                    "label": {
+                                                        "type": "label",
+                                                        "anchor_from": "left_middle",
+                                                        "anchor_to": "left_middle",
+                                                        "layer": 2,
+                                                        "font_type": "default",
+                                                        "text": "自定义标题",
+                                                        "text_alignment": "center"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "bg": {
+                                            "type": "image",
+                                            "clip_direction": "left",
+                                            "clip_ratio": 0.0,
+                                            "nineslice_size": [
+                                                0.0,
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "texture": "textures/ui/background_panel"
+                                        }
+                                    },
+                                    {
+                                        "middle_panel": {
+                                            "type": "panel",
+                                            "anchor_from": "bottom_middle",
+                                            "anchor_to": "bottom_middle",
+                                            "offset": [
+                                                0.0,
+                                                -7.0
+                                            ],
+                                            "size": [
+                                                "95%+0px",
+                                                "85%+0px"
+                                            ],
+                                            "controls": [
+                                                {
+                                                    "bg": {
+                                                        "type": "image",
+                                                        "layer": 1,
+                                                        "clip_direction": "left",
+                                                        "clip_ratio": 0.0,
+                                                        "fill": true,
+                                                        "nineslice_size": [
+                                                            1.0,
+                                                            1.0,
+                                                            1.0,
+                                                            1.0
+                                                        ],
+                                                        "texture": "textures/ui/beacon_button_pressed"
+                                                    }
+                                                },
+                                                {
+                                                    "middle_right_panel": {
+                                                        "type": "panel",
+                                                        "anchor_from": "bottom_right",
+                                                        "anchor_to": "bottom_right",
+                                                        "offset": [
+                                                            -2.0,
+                                                            -2.0
+                                                        ],
+                                                        "size": [
+                                                            "70%+-2px",
+                                                            "80%+0px"
+                                                        ],
+                                                        "layer": 3,
+                                                        "controls": [
+                                                            {
+                                                                "Tedit_box@common.text_edit_box": {
+                                                                    "type": "edit_box",
+                                                                    "$edit_box_default_texture": "textures/ui/edit_box_indent",
+                                                                    "$edit_box_hover_texture": "textures/ui/edit_box_indent_hover",
+                                                                    "$font_scale_factor": 1.0,
+                                                                    "$font_size": "normal",
+                                                                    "$is_new_nine_slice": false,
+                                                                    "$nine_slice_buttom": 0,
+                                                                    "$nine_slice_left": 0,
+                                                                    "$nine_slice_right": 0,
+                                                                    "$nine_slice_top": 0,
+                                                                    "$nineslice_size": [
+                                                                        0,
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "$place_holder_text": "请输入内容",
+                                                                    "$place_holder_text_color": [
+                                                                        0.5,
+                                                                        0.5,
+                                                                        0.5
+                                                                    ],
+                                                                    "$text_background_default": "netease_editor_template_namespace.edit_box_background_default",
+                                                                    "$text_background_hover": "netease_editor_template_namespace.edit_box_background_hover",
+                                                                    "$text_box_name": "%netease_editor_template_namespace.message",
+                                                                    "$text_box_text_color": [
+                                                                        1,
+                                                                        1,
+                                                                        1
+                                                                    ],
+                                                                    "$text_edit_box_content_binding_name": "#netease_editor_template_namespace.message_content",
+                                                                    "$text_edit_box_label_anchor_point": "right_middle",
+                                                                    "$text_edit_box_label_min_size": [
+                                                                        "100%",
+                                                                        0
+                                                                    ],
+                                                                    "$text_edit_box_label_size": [
+                                                                        "default",
+                                                                        "default"
+                                                                    ],
+                                                                    "size": [
+                                                                        "70%+0px",
+                                                                        "10%+0px"
+                                                                    ],
+                                                                    "layer": 1,
+                                                                    "max_length": 512
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "middle_left_panel": {
+                                                        "type": "panel",
+                                                        "anchor_from": "bottom_left",
+                                                        "anchor_to": "bottom_left",
+                                                        "offset": [
+                                                            2.0,
+                                                            -2.0
+                                                        ],
+                                                        "size": [
+                                                            "30%+-2px",
+                                                            "80%+0px"
+                                                        ],
+                                                        "layer": 27
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "right_panel": {
+                                "type": "panel",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "size": [
+                                    "8%+0px",
+                                    "default"
+                                ],
+                                "controls": [
+                                    {
+                                        "close_panel": {
+                                            "type": "panel",
+                                            "anchor_from": "top_right",
+                                            "anchor_to": "top_right",
+                                            "size": [
+                                                "default",
+                                                "10%+0px"
+                                            ],
+                                            "controls": [
+                                                {
+                                                    "bg": {
+                                                        "type": "image",
+                                                        "anchor_from": "right_middle",
+                                                        "anchor_to": "right_middle",
+                                                        "size": [
+                                                            "100%+10px",
+                                                            "default"
+                                                        ],
+                                                        "clip_direction": "left",
+                                                        "clip_ratio": 0.0,
+                                                        "nineslice_size": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "texture": "textures/ui/background_panel"
+                                                    }
+                                                },
+                                                {
+                                                    "close_btn@common.button": {
+                                                        "type": "button",
+                                                        "$control_alpha": 1.0,
+                                                        "$default_texture": "textures/gui/newgui/X",
+                                                        "$hover_texture": "textures/gui/newgui/XHover",
+                                                        "$is_new_nine_slice": false,
+                                                        "$label_color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "$label_font_scale_factor": 1.0,
+                                                        "$label_font_size": "large",
+                                                        "$label_layer": 3,
+                                                        "$label_offset": [
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$label_text": "Button",
+                                                        "$nine_slice_buttom": 0,
+                                                        "$nine_slice_left": 0,
+                                                        "$nine_slice_right": 0,
+                                                        "$nine_slice_top": 0,
+                                                        "$nineslice_size": [
+                                                            0,
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                        "$pressed_texture": "textures/gui/newgui/XPress",
+                                                        "$texture_layer": 2,
+                                                        "size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "max_size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "layer": 2,
+                                                        "button_mappings": [],
+                                                        "default_control": "default",
+                                                        "hover_control": "hover",
+                                                        "is_handle_button_move_event": true,
+                                                        "pressed_control": "pressed",
+                                                        "bindings": [
+                                                            {
+                                                                "binding_type": "collection_details",
+                                                                "binding_collection_name": "",
+                                                                "binding_condition": "always_when_visible"
+                                                            }
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "default@netease_editor_template_namespace.default": {}
+                                                            },
+                                                            {
+                                                                "hover@netease_editor_template_namespace.hover": {}
+                                                            },
+                                                            {
+                                                                "pressed@netease_editor_template_namespace.pressed": {}
+                                                            },
+                                                            {
+                                                                "button_label@netease_editor_template_namespace.button_label": {}
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "create_panel": {
+                                            "type": "panel",
+                                            "anchor_from": "bottom_right",
+                                            "anchor_to": "bottom_right",
+                                            "offset": [
+                                                0.0,
+                                                "-20%+0px"
+                                            ],
+                                            "size": [
+                                                "default",
+                                                "10%+0px"
+                                            ],
+                                            "controls": [
+                                                {
+                                                    "bg": {
+                                                        "type": "image",
+                                                        "anchor_from": "right_middle",
+                                                        "anchor_to": "right_middle",
+                                                        "size": [
+                                                            "100%+10px",
+                                                            "default"
+                                                        ],
+                                                        "clip_direction": "left",
+                                                        "clip_ratio": 0.0,
+                                                        "nineslice_size": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "texture": "textures/ui/background_panel"
+                                                    }
+                                                },
+                                                {
+                                                    "create_btn@common.button": {
+                                                        "type": "button",
+                                                        "$control_alpha": 1.0,
+                                                        "$default_texture": "textures/ui/anvil_icon",
+                                                        "$hover_texture": "textures/ui/anvil_icon",
+                                                        "$is_new_nine_slice": false,
+                                                        "$label_color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "$label_font_scale_factor": 1.0,
+                                                        "$label_font_size": "normal",
+                                                        "$label_layer": 3,
+                                                        "$label_offset": [
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "$label_text": "",
+                                                        "$nine_slice_buttom": 0,
+                                                        "$nine_slice_left": 0,
+                                                        "$nine_slice_right": 0,
+                                                        "$nine_slice_top": 0,
+                                                        "$nineslice_size": [
+                                                            4.0,
+                                                            4.0,
+                                                            4.0,
+                                                            4.0
+                                                        ],
+                                                        "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                        "$pressed_texture": "textures/ui/anvil_icon",
+                                                        "$texture_layer": 2,
+                                                        "size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "max_size": [
+                                                            15.0,
+                                                            15.0
+                                                        ],
+                                                        "layer": 5,
+                                                        "button_mappings": [],
+                                                        "default_control": "default",
+                                                        "hover_control": "hover",
+                                                        "is_handle_button_move_event": true,
+                                                        "pressed_control": "pressed",
+                                                        "bindings": [
+                                                            {
+                                                                "binding_type": "collection_details",
+                                                                "binding_collection_name": "",
+                                                                "binding_condition": "always_when_visible"
+                                                            }
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "default@netease_editor_template_namespace.default": {}
+                                                            },
+                                                            {
+                                                                "hover@netease_editor_template_namespace.hover": {}
+                                                            },
+                                                            {
+                                                                "pressed@netease_editor_template_namespace.pressed": {}
+                                                            },
+                                                            {
+                                                                "button_label@netease_editor_template_namespace.button_label": {}
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "namespace": "jufufu_Tset"
+}

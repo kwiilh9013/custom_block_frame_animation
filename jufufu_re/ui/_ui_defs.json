@@ -1,0 +1,7 @@
+{
+    "ui_defs": [
+        "ui/jufufu_common.json",
+        "ui/jufufu_create_btn.json",
+        "ui/jufufu_Tset.json"
+    ]
+}

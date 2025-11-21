@@ -1,0 +1,11 @@
+{
+    "main": {
+        "type": "screen",
+        "controls": [
+            {
+                "button@jufufu_common.close_btn": {}
+            }
+        ]
+    },
+    "namespace": "jufufu_common"
+}

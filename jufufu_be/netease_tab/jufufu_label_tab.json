@@ -1,0 +1,9 @@
+{
+	"category": [
+		{
+			"name": "jufufu_label",
+			"labelText": "category_tab.jufufu_label",
+			"icon": "textures/items/add_label"
+		}
+	]
+}

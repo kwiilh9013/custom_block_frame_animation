@@ -1,0 +1,188 @@
+{
+    "format_version": "1.19.0",
+    "sound_definitions": {
+        "sound.xymdk.ciallo": {
+            "category": "ambient",
+            "max_distance": 64.0,
+            "sounds": [
+                {
+                    "name": "sounds/axolotl/ciallo",
+                    "volume": 1.0
+                }
+            ]
+        },
+        "sound.xymdk.amerikaya": {
+            "category": "ambient",
+            "max_distance": 64.0,
+            "sounds": [
+                {
+                    "name": "sounds/axolotl/amerikaya",
+                    "volume": 1.0
+                }
+            ]
+        },
+        "sound.xymdk.hello": {
+            "category": "ambient",
+            "max_distance": 64.0,
+            "sounds": [
+                {
+                    "name": "sounds/axolotl/hello",
+                    "volume": 1.0
+                }
+            ]
+        },
+        "xymdk:vayhkdd.axolotl_large_white_water_2vowotwv": {
+			"sounds": [
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.057,
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.114,
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.171,
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.229,
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.286,
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.343,
+					"volume": 0.05,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.4,
+					"volume": 0.05,
+					"is3D": false
+				}
+			],
+			"category": "player"
+		},
+        "xymdk:vayhkdd.axolotl_cluywaa_remzeag_2vowotwv": {
+			"sounds": [
+				{
+					"name": "sounds/mob/axolotl/idle1",
+					"volume": 0.5,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/idle2",
+					"volume": 0.5,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/idle3",
+					"volume": 0.5,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/idle4",
+					"volume": 0.5,
+					"is3D": false
+				},
+				{
+					"name": "sounds/mob/axolotl/idle5",
+					"volume": 0.5,
+					"is3D": false
+				}
+			],
+			"category": "player"
+		},
+        "xymdk:vayhkdd.axolotl_large_white_water_3vowotwv": {
+			"sounds": [
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.057,
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.114,
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.171,
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.229,
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.286,
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.343,
+					"volume": 0.05
+				},
+				{
+					"name": "sounds/mob/axolotl/splash2",
+					"pitch": 1.4,
+					"volume": 0.05
+				}
+			],
+			"category": "player",
+			"max_distance": 12.001
+		},
+        "xymdk:vayhkdd.axolotl_cluywaa_remzeag_3vowotwv": {
+			"sounds": [
+				{
+					"name": "sounds/mob/axolotl/idle1",
+					"volume": 0.5
+				},
+				{
+					"name": "sounds/mob/axolotl/idle2",
+					"volume": 0.5
+				},
+				{
+					"name": "sounds/mob/axolotl/idle3",
+					"volume": 0.5
+				},
+				{
+					"name": "sounds/mob/axolotl/idle4",
+					"volume": 0.5
+				},
+				{
+					"name": "sounds/mob/axolotl/idle5",
+					"volume": 0.5
+				}
+			],
+			"category": "player",
+			"max_distance": 12.001
+		}
+    }
+}

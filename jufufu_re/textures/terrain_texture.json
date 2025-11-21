@@ -1,0 +1,24 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_data": {
+		"xymdk:ciallo_tab": {
+			"textures": "textures/tab/ciallo_tab"
+		},
+		"xymdk:blue_ciallo_axolotl": {
+			"textures": "textures/block_icon/blue_ciallo_axolotl"
+		},
+		"xymdk:cyan_ciallo_axolotl": {
+			"textures": "textures/block_icon/cyan_ciallo_axolotl"
+		},
+		"xymdk:gold_ciallo_axolotl": {
+			"textures": "textures/block_icon/gold_ciallo_axolotl"
+		},
+		"xymdk:lucy_ciallo_axolotl": {
+			"textures": "textures/block_icon/lucy_ciallo_axolotl"
+		},
+		"xymdk:wild_ciallo_axolotl": {
+			"textures": "textures/block_icon/wild_ciallo_axolotl"
+		}
+	},
+	"texture_name": "atlas.terrain"
+}

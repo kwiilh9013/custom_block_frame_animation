@@ -1,0 +1,33 @@
+{
+    "main": {
+        "type": "screen",
+        "controls": [
+            {
+                "main_panel": {
+                    "type": "panel",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "startBtn@jufufu_common.jufufu_common_btn": {
+                                "$label_font_size": "normal",
+                                "$label_text": "开始",
+                                "anchor_from": "bottom_middle",
+                                "anchor_to": "bottom_middle",
+                                "layer": 11,
+                                "offset": [
+                                    0,
+                                    "-15%+0px"
+                                ],
+                                "size": [
+                                    50,
+                                    20
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "namespace": "jufufu_start"
+}

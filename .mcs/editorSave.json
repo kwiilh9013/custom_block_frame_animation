@@ -1,0 +1,82 @@
+{
+    "Addon": {
+        "EnchantSetting": {
+            "amplifier": 1
+        },
+        "PackResourceSortData": {
+            "2_jufufu:add_label": {
+                "createTime": 1763716805.316447,
+                "modifyTime": 1763716805.316447
+            },
+            "32768_sound_definitions": {
+                "createTime": 1763716805.316447,
+                "modifyTime": 1763716805.316447
+            },
+            "8192_jufufu_label_tab": {
+                "createTime": 1763716805.316447,
+                "modifyTime": 1763716805.316447
+            }
+        },
+        "PlayerEffectSetting": {
+            "amplifier": 1,
+            "duration": 10
+        },
+        "PresetInstanceTreeData": [
+
+        ]
+    },
+    "UI": {
+        "customPrefabGroupExpand": [
+            "jufufu_common"
+        ],
+        "customVariables": {
+            "C:\\Users\\taozongshou\\Desktop\\mc_github\\mine\\custom_block_frame_animation\\jufufu_re\\ui\\jufufu_common.json": [
+                "$default_img_size",
+                "$default_img_size|default",
+                "$hover_img_size",
+                "$hover_img_size|default",
+                "$pressed_img_size",
+                "$pressed_img_size|default",
+                "$text_size",
+                "$text_size|default",
+                "$default_img_rot",
+                "$default_img_rot|default",
+                "$hover_img_rot",
+                "$hover_img_rot|default",
+                "$pressed_img_rot",
+                "$pressed_img_rot|default"
+            ]
+        },
+        "expandData": {
+            "prefab": {
+                "jufufu_common.jufufu_common_btn": [
+                    "/netease_prefab_screen",
+                    "/netease_prefab_screen/jufufu_common_btn"
+                ]
+            },
+            "screen": {
+                "C:\\Users\\taozongshou\\Desktop\\mc_github\\mine\\custom_block_frame_animation\\jufufu_re\\ui\\jufufu_Tset.json": [
+                    "/main",
+                    "/main/main_panel",
+                    "/main/main_panel/index_panel",
+                    "/main/main_panel/index_panel/middle_panel",
+                    "/main/main_panel/index_panel/middle_panel/middle_bottom_panel",
+                    "/main/main_panel/index_panel/middle_panel/footage_panel",
+                    "/main/main_panel/index_panel/middle_panel/footage_panel/page_content_panel",
+                    "/main/main_panel/right_panel/close_panel"
+                ],
+                "C:\\Users\\taozongshou\\Desktop\\mc_github\\mine\\custom_block_frame_animation\\jufufu_re\\ui\\jufufu_common.json": [
+                    "/main"
+                ],
+                "C:\\Users\\taozongshou\\Desktop\\mc_github\\mine\\custom_block_frame_animation\\jufufu_re\\ui\\jufufu_create_btn.json": [
+                    "/main",
+                    "/main/main_panel"
+                ],
+                "C:\\Users\\taozongshou\\Desktop\\mc_github\\mine\\custom_block_frame_animation\\jufufu_re\\ui\\jufufu_start.json": [
+                    "/main",
+                    "/main/main_panel"
+                ]
+            }
+        }
+    }
+}

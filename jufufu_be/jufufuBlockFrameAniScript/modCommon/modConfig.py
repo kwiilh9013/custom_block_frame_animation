@@ -14,19 +14,23 @@ ClientSystemPath = "%s.modClient.system" % ModScriptName
 class ServerSystemEnum(object):
 	ServerSystem = "ServerSystem"
 	SelectServerSystem = "SelectServerSystem"
+	StartServerSystem = "StartServerSystem"
 
 
 class ClientSystemEnum(object):
 	ClientSystem = "ClientSystem"
 	SelectClientSystem = "SelectClientSystem"
+	StartClientSystem = "StartClientSystem"
 
 
 ServerSystemList = [
 	ServerSystemEnum.ServerSystem,
-	ServerSystemEnum.SelectServerSystem
+	ServerSystemEnum.SelectServerSystem,
+	ServerSystemEnum.StartServerSystem
 ]
 
 ClientSystemList = [
 	ClientSystemEnum.ClientSystem,
-	ClientSystemEnum.SelectClientSystem
+	ClientSystemEnum.SelectClientSystem,
+	ClientSystemEnum.StartClientSystem
 ]

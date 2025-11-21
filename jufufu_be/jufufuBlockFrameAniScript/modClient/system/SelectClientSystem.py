@@ -87,19 +87,7 @@ class SelectClientSystem(BaseClientSystem):
 	# region 监听
 	@AddonEvent(modConfig.ModNameSpace, modConfig.ClientSystemEnum.ClientSystem)
 	def CreateBtnClicked(self, args):
-		if self._nowSelectPos:
-			if not self._selectPos1:
-				self._selectPos1 = self._nowSelectPos
-				self._lineBoxObj.UpdateLineBoxStartPos(self._selectPos1)
-				self.BroadcastEvent("SetCreateBtnText", {"text": "选择第二点"})
-				self.SendMsgToServer("test123", {"pos": self._selectPos1})
-			elif self._selectPos1 and not self._selectPos2:
-				self._selectPos2 = self._nowSelectPos
-				self._lineBoxObj.UpdateLineBoxEndPos(self._selectPos2)
-				self.SendMsgToServer("test123", {"pos": self._selectPos2})
-				self.BroadcastEvent("SetCreateBtnText", {"text": "创建"})
-			else:
-				Instance.mUIManager.PushUI(UIDef.UI_JufufuTSet)
+		Instance.mUIManager.PushUI(UIDef.UI_JufufuMain)
 
 	def RemoveUI(self, uiObj):
 		if uiObj:

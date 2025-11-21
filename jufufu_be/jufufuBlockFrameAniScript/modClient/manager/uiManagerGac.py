@@ -14,8 +14,9 @@ class UIManagerGac(CommonManager):
 
 	def UiInitFinished(self, args):
 		self.Clear()
-		self.RegisterUI(UIDef.UI_JufufuTSet)
+		self.RegisterUI(UIDef.UI_JufufuMain)
 		self.RegisterUI(UIDef.UI_jufufuCreateBtn)
+		self.RegisterUI(UIDef.UI_JufufuStart)
 
 	def RegisterUI(self, uiData):
 		if not self.mRegisterFlag.get(uiData["ui_key"], False):

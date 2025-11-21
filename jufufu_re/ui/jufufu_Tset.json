@@ -6,7 +6,7 @@
                 "main_panel": {
                     "type": "panel",
                     "size": [
-                        "60%+0px",
+                        "70%+0px",
                         "80%+0px"
                     ],
                     "layer": 1,
@@ -301,7 +301,7 @@
                                                         "anchor_to": "left_middle",
                                                         "layer": 2,
                                                         "font_type": "default",
-                                                        "text": "自定义标题",
+                                                        "text": "主面板",
                                                         "text_alignment": "center"
                                                     }
                                                 }
@@ -353,87 +353,133 @@
                                                     }
                                                 },
                                                 {
-                                                    "middle_right_panel": {
+                                                    "middle_bottom_panel": {
                                                         "type": "panel",
-                                                        "anchor_from": "bottom_right",
-                                                        "anchor_to": "bottom_right",
-                                                        "offset": [
-                                                            -2.0,
-                                                            -2.0
-                                                        ],
+                                                        "anchor_from": "bottom_middle",
+                                                        "anchor_to": "bottom_middle",
                                                         "size": [
-                                                            "70%+-2px",
-                                                            "80%+0px"
+                                                            "default",
+                                                            "40%+0px"
                                                         ],
-                                                        "layer": 3,
-                                                        "controls": [
-                                                            {
-                                                                "Tedit_box@common.text_edit_box": {
-                                                                    "type": "edit_box",
-                                                                    "$edit_box_default_texture": "textures/ui/edit_box_indent",
-                                                                    "$edit_box_hover_texture": "textures/ui/edit_box_indent_hover",
-                                                                    "$font_scale_factor": 1.0,
-                                                                    "$font_size": "normal",
-                                                                    "$is_new_nine_slice": false,
-                                                                    "$nine_slice_buttom": 0,
-                                                                    "$nine_slice_left": 0,
-                                                                    "$nine_slice_right": 0,
-                                                                    "$nine_slice_top": 0,
-                                                                    "$nineslice_size": [
-                                                                        0,
-                                                                        0,
-                                                                        0,
-                                                                        0
-                                                                    ],
-                                                                    "$place_holder_text": "请输入内容",
-                                                                    "$place_holder_text_color": [
-                                                                        0.5,
-                                                                        0.5,
-                                                                        0.5
-                                                                    ],
-                                                                    "$text_background_default": "netease_editor_template_namespace.edit_box_background_default",
-                                                                    "$text_background_hover": "netease_editor_template_namespace.edit_box_background_hover",
-                                                                    "$text_box_name": "%netease_editor_template_namespace.message",
-                                                                    "$text_box_text_color": [
-                                                                        1,
-                                                                        1,
-                                                                        1
-                                                                    ],
-                                                                    "$text_edit_box_content_binding_name": "#netease_editor_template_namespace.message_content",
-                                                                    "$text_edit_box_label_anchor_point": "right_middle",
-                                                                    "$text_edit_box_label_min_size": [
-                                                                        "100%",
-                                                                        0
-                                                                    ],
-                                                                    "$text_edit_box_label_size": [
-                                                                        "default",
-                                                                        "default"
-                                                                    ],
-                                                                    "size": [
-                                                                        "70%+0px",
-                                                                        "10%+0px"
-                                                                    ],
-                                                                    "layer": 1,
-                                                                    "max_length": 512
-                                                                }
-                                                            }
-                                                        ]
+                                                        "layer": 3
                                                     }
                                                 },
                                                 {
-                                                    "middle_left_panel": {
+                                                    "footage_panel": {
                                                         "type": "panel",
-                                                        "anchor_from": "bottom_left",
-                                                        "anchor_to": "bottom_left",
-                                                        "offset": [
-                                                            2.0,
-                                                            -2.0
-                                                        ],
+                                                        "anchor_from": "top_left",
+                                                        "anchor_to": "top_left",
                                                         "size": [
-                                                            "30%+-2px",
-                                                            "80%+0px"
+                                                            "40%+-2px",
+                                                            "50%+0px"
                                                         ],
-                                                        "layer": 27
+                                                        "layer": 27,
+                                                        "controls": [
+                                                            {
+                                                                "page_panel": {
+                                                                    "type": "panel",
+                                                                    "anchor_from": "bottom_middle",
+                                                                    "anchor_to": "bottom_middle",
+                                                                    "size": [
+                                                                        "default",
+                                                                        "15%+0px"
+                                                                    ],
+                                                                    "layer": 1,
+                                                                    "controls": [
+                                                                        {
+                                                                            "page_text": {
+                                                                                "type": "label",
+                                                                                "max_size": [
+                                                                                    "40%+0px",
+                                                                                    "default"
+                                                                                ],
+                                                                                "font_type": "default",
+                                                                                "text": "1/1",
+                                                                                "text_alignment": "center"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "pre_page_btn@jufufu_common.jufufu_common_btn": {
+                                                                                "$default_img_rot": 180,
+                                                                                "$default_img_size": [
+                                                                                    "50%+0px",
+                                                                                    "50%+0px"
+                                                                                ],
+                                                                                "$default_texture": "textures/gui/newgui/viewCollapsed",
+                                                                                "$hover_img_rot": 180,
+                                                                                "$hover_img_size": [
+                                                                                    "50%+0px",
+                                                                                    "50%+0px"
+                                                                                ],
+                                                                                "$hover_texture": "",
+                                                                                "$label_font_size": "normal",
+                                                                                "$label_text": "",
+                                                                                "$pressed_img_rot": 180,
+                                                                                "$pressed_texture": "",
+                                                                                "anchor_from": "left_middle",
+                                                                                "anchor_to": "left_middle",
+                                                                                "size": [
+                                                                                    "30%+0px",
+                                                                                    "default"
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "next_page_btn@jufufu_common.jufufu_common_btn": {
+                                                                                "$default_img_rot": 0,
+                                                                                "$default_img_size": [
+                                                                                    "50%+0px",
+                                                                                    "50%+0px"
+                                                                                ],
+                                                                                "$default_texture": "textures/gui/newgui/viewCollapsed",
+                                                                                "$hover_img_rot": 0,
+                                                                                "$hover_img_size": [
+                                                                                    "50%+0px",
+                                                                                    "50%+0px"
+                                                                                ],
+                                                                                "$hover_texture": "",
+                                                                                "$label_font_size": "normal",
+                                                                                "$label_text": "",
+                                                                                "$pressed_img_rot": 0,
+                                                                                "$pressed_texture": "",
+                                                                                "anchor_from": "right_middle",
+                                                                                "anchor_to": "right_middle",
+                                                                                "size": [
+                                                                                    "30%+0px",
+                                                                                    "default"
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_content_panel": {
+                                                                    "type": "panel",
+                                                                    "anchor_from": "top_middle",
+                                                                    "anchor_to": "top_middle",
+                                                                    "size": [
+                                                                        "default",
+                                                                        "85%+0px"
+                                                                    ],
+                                                                    "layer": 1,
+                                                                    "controls": [
+                                                                        {
+                                                                            "jufufu_common_btn(0)@jufufu_common.jufufu_common_btn": {
+                                                                                "$label_font_size": "normal",
+                                                                                "$label_text": "",
+                                                                                "anchor_from": "top_left",
+                                                                                "anchor_to": "top_left",
+                                                                                "size": [
+                                                                                    "50%+0px",
+                                                                                    "20%+0px"
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -487,7 +533,7 @@
                                                         "type": "button",
                                                         "$control_alpha": 1.0,
                                                         "$default_texture": "textures/gui/newgui/X",
-                                                        "$hover_texture": "textures/gui/newgui/XHover",
+                                                        "$hover_texture": "textures/gui/newgui/X",
                                                         "$is_new_nine_slice": false,
                                                         "$label_color": [
                                                             1,

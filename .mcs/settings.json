@@ -1,0 +1,13 @@
+{
+    "Arena.Component.Namespace": "brrwc",
+    "FirstTabSetting": 0,
+    "ShortItemSettings": [
+        "jufufu_re\\ui",
+        "jufufu_re\\models",
+        "jufufu_re\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+        "jufufu_start": true
+    },
+    "Uluru.checkSuspectOldUI": true
+}
